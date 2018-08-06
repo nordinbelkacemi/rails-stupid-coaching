@@ -1,0 +1,57 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-v {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.submit-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  background: #D32222;
+  padding: 10px;
+  border: 2px solid #D32222;
+  background: white;
+  text-decoration: none;
+  color: black;
+  margin: 8px;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  color: white;
+  background: #D32222;
+}
+
+.txt-input {
+  height: 36px;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
